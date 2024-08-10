@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreditCardTransaction>
+    <LocalSystem>
+        <SystemName>PaymentGateway</SystemName>
+        <Location>GT</Location>
+    </LocalSystem>
+    <CardDetails>
+        <CardNumber>1234-5678-9012-3456</CardNumber>
+        <CardHolderName>Jose Valdez</CardHolderName>
+        <ExpirationDate>12/2025</ExpirationDate>
+        <CVV>123</CVV>
+    </CardDetails>
+    <TransactionDetails>
+        <TransactionID>987654321</TransactionID>
+        <TransactionDate>2024-08-10</TransactionDate>
+        <Amount currency="Q">150.00</Amount>
+        <Merchant>
+            <MerchantID>456789</MerchantID>
+            <MerchantName>Tienda Online</MerchantName>
+        </Merchant>
+    </TransactionDetails>
+    <CustomerDetails>
+        <CustomerID>ABC12345</CustomerID>
+        <CustomerName>Jose Valdez</CustomerName>
+        <BillingAddress>
+            <Street>123 calle zona 1</Street>
+            <City>Jocotenango</City>
+            <State>SAC</State>
+            <PostalCode>10001</PostalCode>
+            <Country>GT</Country>
+        </BillingAddress>
+    </CustomerDetails>
+</CreditCardTransaction>
